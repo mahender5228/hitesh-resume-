@@ -338,7 +338,7 @@ document.getElementById('contactForm')?.addEventListener('submit', (e) => {
   const message = document.getElementById('message').value.trim();
 
   const text = encodeURIComponent(
-    `👋 Hi Mahender!\n\n` +
+    `👋 Hi Hitesh!\n\n` +
     `*Name:* ${name}\n` +
     `*Email:* ${email}\n` +
     `*Subject:* ${subject || '(none)'}\n\n` +
@@ -351,7 +351,7 @@ document.getElementById('contactForm')?.addEventListener('submit', (e) => {
   btn.disabled = true;
 
   setTimeout(() => {
-    window.open(`https://wa.me/919872687150?text=${text}`, '_blank');
+    window.open(`https://wa.me/918168009299?text=${text}`, '_blank');
     document.getElementById('formSuccess').style.display = 'block';
     btn.querySelector('.btn-sending').style.display = 'none';
     btn.querySelector('.btn-text').style.display = 'inline';
